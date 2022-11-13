@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>nullish coalescing</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="">
+    <!-- Normally we don't put scripts in the head because they load before the body
+    This causes issues trying to acces objects that have not yet be rendered
+    Adding scripts to the bottom of the body can be difficult to work with
+    So "defer" and "async" were introducted. By using defer it will wait to 
+    load the script until after the body is loaded -->
+    <script src="script.js" async defer></script>
+</head>
+
+<body>
+    <button>I am Button</button>
+</body>
+
+</html>
